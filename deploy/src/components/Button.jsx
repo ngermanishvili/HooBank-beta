@@ -1,10 +1,7 @@
 import React from "react";
 
-
-
 const Button = ({ styles }) => {
   return (
-
     <button
       type="button"
       className={`py-4 px-6 bg-blue-gradient
@@ -13,11 +10,9 @@ const Button = ({ styles }) => {
         text-[18px] font-poppins line-height-[150%] outline-none ${styles}
      `}
     >
-      
       Get Started
     </button>
   );
 };
 
 export default Button;
-
